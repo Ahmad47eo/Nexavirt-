@@ -3,22 +3,48 @@
   "parts": [
     {
       "n": "Probe",
-      "p": { "x": 7, "y": 10 },
-      "o": { "x": 1, "y": 1, "z": 0 },
+      "p": {
+        "x": 7,
+        "y": 10
+      },
+      "o": {
+        "x": 1,
+        "y": 1,
+        "z": 0
+      },
       "t": "-Infinity"
     },
     {
       "n": "Cone",
-      "p": { "x": 7, "y": 8 },
-      "o": { "x": 1, "y": 1, "z": 0 },
+      "p": {
+        "x": 7,
+        "y": 8
+      },
+      "o": {
+        "x": 1,
+        "y": 1,
+        "z": 0
+      },
       "t": "-Infinity",
-      "N": { "size": 2 },
-      "T": { "color_tex": "_", "shape_tex": "_" }
+      "N": {
+        "size": 2
+      },
+      "T": {
+        "color_tex": "_",
+        "shape_tex": "_"
+      }
     },
     {
       "n": "Fuel Tank",
-      "p": { "x": 7, "y": 4 },
-      "o": { "x": 1, "y": 1, "z": 0 },
+      "p": {
+        "x": 7,
+        "y": 4
+      },
+      "o": {
+        "x": 1,
+        "y": 1,
+        "z": 0
+      },
       "t": "-Infinity",
       "N": {
         "width_original": 2,
@@ -27,12 +53,22 @@
         "height": 4,
         "fuel_percent": 1
       },
-      "T": { "color_tex": "_", "shape_tex": "_" }
+      "T": {
+        "color_tex": "_",
+        "shape_tex": "_"
+      }
     },
     {
       "n": "Fuel Tank",
-      "p": { "x": 7, "y": 0 },
-      "o": { "x": 1, "y": 1, "z": 0 },
+      "p": {
+        "x": 7,
+        "y": 0
+      },
+      "o": {
+        "x": 1,
+        "y": 1,
+        "z": 0
+      },
       "t": "-Infinity",
       "N": {
         "width_original": 2,
@@ -41,18 +77,42 @@
         "height": 4,
         "fuel_percent": 1
       },
-      "T": { "color_tex": "_", "shape_tex": "_" }
+      "T": {
+        "color_tex": "_",
+        "shape_tex": "_"
+      }
     },
     {
       "n": "Engine Valiant",
-      "p": { "x": 7, "y": 0 },
-      "o": { "x": 1, "y": 1, "z": 0 },
+      "p": {
+        "x": 7,
+        "y": 0
+      },
+      "o": {
+        "x": 1,
+        "y": 1,
+        "z": 0
+      },
       "t": "-Infinity",
-      "B": { "engine_on": true, "heat_on__for_creative_use": false, "gimbal_on": true }
+      "B": {
+        "engine_on": true,
+        "heat_on__for_creative_use": false,
+        "gimbal_on": true
+      }
     }
   ],
-  "stages": [],
+  "stages": [
+    {
+      "stageId": 1,
+      "partIndexes": [
+        4
+      ]
+    }
+  ],
   "rotation": 0,
-  "offset": { "x": 0, "y": 0 },
+  "offset": {
+    "x": 0,
+    "y": 0
+  },
   "interiorView": false
 }
