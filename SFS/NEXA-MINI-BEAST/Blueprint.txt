@@ -1,0 +1,66 @@
+{
+  "center": 7,
+  "parts": [
+    {
+      "n": "Probe",
+      "p": { "x": 7.50001526, "y": 16.5000534 },
+      "o": { "x": -1, "y": -1, "z": 0 },
+      "t": "-Infinity",
+      "N": { "width": 2 }
+    },
+    {
+      "n": "Cone",
+      "p": { "x": 7.50001526, "y": 17.5000458 },
+      "o": { "x": -1, "y": 1, "z": 0 },
+      "t": "-Infinity",
+      "N": { "size": 2 },
+      "T": { "color_tex": "_", "shape_tex": "_" }
+    },
+    {
+      "n": "Parachute",
+      "p": { "x": 7.50001526, "y": 16.0000534 },
+      "o": { "x": -1, "y": -1, "z": 0 },
+      "t": "-Infinity",
+      "N": { "deploy_state": 0, "animation_state": 0, "temperature": "-Infinity" }
+    },
+    {
+      "n": "Fuel Tank",
+      "p": { "x": 7.50001526, "y": 14.5000629 },
+      "o": { "x": -1, "y": -1, "z": 0 },
+      "t": "-Infinity",
+      "N": {
+        "width_original": 2,
+        "width_a": 2,
+        "width_b": 2,
+        "height": 4,
+        "fuel_percent": 100
+      },
+      "T": { "color_tex": "_", "shape_tex": "_" }
+    },
+    {
+      "n": "Fuel Tank",
+      "p": { "x": 7.50001526, "y": 12.0000725 },
+      "o": { "x": -1, "y": -1, "z": 0 },
+      "t": "-Infinity",
+      "N": {
+        "width_original": 2,
+        "width_a": 2,
+        "width_b": 2,
+        "height": 4,
+        "fuel_percent": 100
+      },
+      "T": { "color_tex": "_", "shape_tex": "_" }
+    },
+    {
+      "n": "Engine Valiant",
+      "p": { "x": 7.50001526, "y": 9.5000811 },
+      "o": { "x": -1, "y": -1, "z": 180 },
+      "t": "-Infinity",
+      "B": { "engine_on": true, "heat_on__for_creative_use": false, "gimbal_on": true }
+    }
+  ],
+  "stages": [],
+  "rotation": 0,
+  "offset": { "x": 0, "y": 0 },
+  "interiorView": false
+}
